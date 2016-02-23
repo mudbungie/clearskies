@@ -1,0 +1,6 @@
+This project is installed using virtualenv. After cloning, execute 
+    `source clearskies/bin/activate` from inside the project root.
+
+Requires host packages (or equivalents):
+    libpq-dev
+
