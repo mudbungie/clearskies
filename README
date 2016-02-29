@@ -2,5 +2,7 @@ This project is installed using virtualenv. After cloning, execute
     `source clearskies/bin/activate` from inside the project root.
 
 Requires host packages (or equivalents):
+    libsnmp-dev
     libpq-dev
-
+    snmp-mibs-downloader (non-free)
+    pip3 install easysnmp must be run as system administrator. It won't compile inside of a virtualenv

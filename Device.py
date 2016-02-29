@@ -43,6 +43,7 @@ class Tower(Device):
 
 if __name__ == '__main__':
     a = Device('test', '172.24.53.42') #'62336 Deer Trl Lane Bend  OR 97701')
+    #a = Device('test', '172.24.3.130')
     a.getSNMP()
     a.checkWeather()
     print(a.weather)
